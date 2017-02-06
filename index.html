@@ -5,12 +5,23 @@
     <title></title>
   </head>
   <body>
-    <h1 class="changeName">Hello, Derek Birdsall</h1>
+    <div class="myContainer">
 
+    </div>
+    <h1 class="changeName">Hello, Derek Birdsall</h1>
+    <h2 id="oneName">Hello, Jeff Berwick</h2>
+    <div class="myContainer">
+
+    </div>
     <script>
       var H1=document.getElementsByClassName("changeName");
       console.log(H1);
       H1[0].innerHTML = "hello, Lee Matabire";
+      var H2 = document.getElementById("oneName");
+      console.log(H2);
+      H2.innerHTML = "Hello, Jim Derwitz";
+      var myContainer = document.getElementsByClassName("myContainer");
+
     </script>
   </body>
 </html>
