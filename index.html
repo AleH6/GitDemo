@@ -15,13 +15,15 @@
     </div>
     <script>
       var H1=document.getElementsByClassName("changeName");
+
       console.log(H1);
       H1[0].innerHTML = "hello, Lee Matabire";
       var H2 = document.getElementById("oneName");
       console.log(H2);
       H2.innerHTML = "Hello, Jim Derwitz";
-      var myContainer = document.getElementsByClassName("myContainer");
+      var myContainer = document.getElementsByClassName("myContainer"); // returns an array
       myContainer[0].innerHTML = 'hello alejandro';
+      myContainer[1].innerHTML = "Hello, Nick!";
     </script>
   </body>
 </html>
